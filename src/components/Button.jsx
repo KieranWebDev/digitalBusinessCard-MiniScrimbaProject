@@ -8,7 +8,7 @@ export default function Button({
   style,
 }) {
   return (
-    <a className="btn" style={style} href={linkAddress}>
+    <a target="_blank" className="btn" style={style} href={linkAddress}>
       <img className="logo" src={logo} alt={logoAlt} />
       <span>{innerText}</span>
     </a>

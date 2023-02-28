@@ -1,21 +1,23 @@
 import './App.css';
-import twitterLogo from './images/square-twitter.svg';
 import gorrillazLogo from './images/OG.png';
 
 // components
 import MainPic from './components/MainPic';
-import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="app-container">
       <MainPic img={gorrillazLogo} />
-      <Header
+      <AboutMe
         name="Gorrillaz"
         jobTitle="Musicians/animated cartoons"
         website="https://www.gorillaz.com/"
+        aboutMeText="top part of the text blsdjgdfghjghregndfgnughbnjbknrtbrt"
+        interestsText="bottom fnjfngnbergbdfbgdfgerugbeugbfghjbrhgberg"
       />
-      <h1>test</h1>
+      <Footer />
     </div>
   );
 }
