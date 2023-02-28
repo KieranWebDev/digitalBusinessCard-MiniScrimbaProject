@@ -1,32 +1,27 @@
 import React from 'react';
 
-import twitter from '../images/square-twitter.svg';
-import instagram from '../images/square-instagram.svg';
-import github from '../images/square-github.svg';
-import linkedin from '../images/linkedin.svg';
+import twitterImg from '../images/square-twitter.svg';
+import instagramImg from '../images/square-instagram.svg';
+import githubImg from '../images/square-github.svg';
+import linkedinImg from '../images/linkedin.svg';
 
-export default function Footer({
-  twitterUser,
-  instagramUser,
-  githubUser,
-  linkedinUser,
-}) {
+export default function Footer({ twitter, instagram, github, linkedin }) {
   return (
     <footer>
-      <a href={`https://twitter.com/${twitterUser}`}>
-        <img src={twitter} alt="twitter" />
+      <a href={twitter} target="_blank">
+        <img src={twitterImg} alt="twitter" />
       </a>
-      <a href={`https://instagram.com/${instagramUser}`}>
+      <a href={instagram} target="_blank">
         {' '}
-        <img src={instagram} alt="instagram" />
+        <img src={instagramImg} alt="instagram" />
       </a>
-      <a href={`https://github.com/${githubUser}`}>
+      <a href={github} target="_blank">
         {' '}
-        <img src={github} alt="github" />
+        <img src={githubImg} alt="github" />
       </a>
-      <a href={`https://linkedin.com/in/${linkedinUser}`}>
+      <a href={linkedin} target="_blank">
         {' '}
-        <img src={linkedin} alt="linkedin" />
+        <img src={linkedinImg} alt="linkedin" />
       </a>
     </footer>
   );

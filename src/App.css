@@ -69,7 +69,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   min-width: 250px;
   background-color: #1a1b21;
   color: inherit;
@@ -87,7 +87,9 @@ a {
   align-items: center;
   gap: 10px;
 }
-
+.about-me {
+  padding: 1rem;
+}
 footer {
   margin-top: 1rem;
   background-color: darkblue;
@@ -97,6 +99,7 @@ footer {
   gap: 2rem;
   width: 100%;
   padding: 1rem 0;
+  border-radius: 0 0 15px 15px;
 }
 footer img {
   width: 50px;

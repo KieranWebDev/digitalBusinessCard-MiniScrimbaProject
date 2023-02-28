@@ -17,7 +17,12 @@ function App() {
         aboutMeText="top part of the text blsdjgdfghjghregndfgnughbnjbknrtbrt"
         interestsText="bottom fnjfngnbergbdfbgdfgerugbeugbfghjbrhgberg"
       />
-      <Footer />
+      <Footer
+        twitter="https://twitter.com/gorillaz"
+        instagram="https://www.instagram.com/gorillaz/"
+        github="github.com/gorillaz"
+        linkedin="https://www.linkedin.com/company/gorillaz/"
+      />
     </div>
   );
 }
